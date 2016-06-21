@@ -1,6 +1,6 @@
 language: c
+sudo: false
 compiler:
-	- gcc
-# Change this to your needs
-script: 
-	- make
+  - gcc
+  - clang
+script: make test
